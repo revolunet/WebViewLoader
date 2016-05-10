@@ -3,7 +3,8 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var input: UITextField!
-    var URL = "http://www.google.com"
+    var URL = "http://www.html5test.com"
+    //192.168.103.208:3001/#/media/ODL-S06BE11"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +18,12 @@ class ViewController: UIViewController {
 
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "ShowWebViewSegue" {
-            let webVC = segue.destinationViewController as! WebViewController
+        if segue.identifier == "ShowUIWebViewSegue" {
+            let webVC = segue.destinationViewController as! UIWebViewController
+            webVC.URL = input.text!
+        }
+        if segue.identifier == "ShowWkWebViewSegue" {
+            let webVC = segue.destinationViewController as! WkWebViewController
             webVC.URL = input.text!
             
         }

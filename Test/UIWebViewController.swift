@@ -1,11 +1,12 @@
 
 import UIKit
 
-class WebViewController: UIViewController {
+class UIWebViewController: UIViewController {
     @IBOutlet weak var webview: UIWebView!
     var URL = ""
     
     @IBAction func touchUp(sender: AnyObject) {
+        webview.stringByEvaluatingJavaScriptFromString("document.body.innerHTML = \"\";");
         self.dismissViewControllerAnimated(true, completion: {})
     }
     

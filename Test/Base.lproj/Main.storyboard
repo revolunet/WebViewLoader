@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -18,28 +18,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="30" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="Dsu-SZ-RtS">
-                                <rect key="frame" x="0.0" y="138" width="600" height="50"/>
+                                <rect key="frame" x="0.0" y="135" width="600" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="PZu-rn-hjK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="URL"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoF-o3-UeI">
-                                <rect key="frame" x="191" y="212" width="219" height="55"/>
-                                <state key="normal" title="Open UIWebView">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoF-o3-UeI" customClass="MyCustomButton" customModule="Test">
+                                <rect key="frame" x="0.0" y="226" width="600" height="60"/>
+                                <state key="normal" title="UIWebView">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="AMM-WS-8tD" kind="show" identifier="ShowWebViewSegue" id="vGr-Bz-CQb"/>
+                                    <segue destination="AMM-WS-8tD" kind="show" identifier="ShowUIWebViewSegue" id="vGr-Bz-CQb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esr-mn-DQO" customClass="MyCustomButton" customModule="Test">
+                                <rect key="frame" x="0.0" y="308" width="600" height="60"/>
+                                <state key="normal" title="WkWebView">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5K8-zO-etd" kind="show" identifier="ShowWkWebViewSegue" id="Coi-cV-WP0"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Dsu-SZ-RtS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="SuO-xb-3Tk"/>
-                            <constraint firstItem="hoF-o3-UeI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pDR-Kq-ofB"/>
+                            <constraint firstItem="esr-mn-DQO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bJU-WH-4kD"/>
                             <constraint firstItem="hoF-o3-UeI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tB2-bE-2im"/>
                         </constraints>
                     </view>
@@ -54,7 +64,7 @@
         <!--Web View Controller-->
         <scene sceneID="g3i-Xs-w5r">
             <objects>
-                <viewController id="AMM-WS-8tD" customClass="WebViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AMM-WS-8tD" customClass="UIWebViewController" customModule="Test" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Oy-S5-SzL"/>
                         <viewControllerLayoutGuide type="bottom" id="pnO-5g-Hye"/>
@@ -69,8 +79,8 @@
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mm-Ef-dYo">
-                                <rect key="frame" x="0.0" y="0.0" width="75" height="80"/>
-                                <state key="normal" title="Back"/>
+                                <rect key="frame" x="-1" y="-11" width="75" height="80"/>
+                                <state key="normal" title="◀ Back"/>
                                 <connections>
                                     <action selector="touchUp:" destination="AMM-WS-8tD" eventType="touchUpInside" id="qST-Ky-xXb"/>
                                 </connections>
@@ -91,6 +101,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bb-K9-jzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="991" y="361"/>
+        </scene>
+        <!--Wk Web View Controller-->
+        <scene sceneID="Hhd-VZ-lgK">
+            <objects>
+                <viewController id="5K8-zO-etd" customClass="WkWebViewController" customModule="Test" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q76-Ey-fiZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="hAx-eO-ncL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rKX-oO-Lgn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6D-UJ-5Fb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623" y="401"/>
         </scene>
     </scenes>
 </document>

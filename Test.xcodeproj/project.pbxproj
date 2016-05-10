@@ -12,7 +12,9 @@
 		8D9F84991CDCA590001719E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F84971CDCA590001719E0 /* Main.storyboard */; };
 		8D9F849B1CDCA590001719E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F849A1CDCA590001719E0 /* Assets.xcassets */; };
 		8D9F849E1CDCA590001719E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F849C1CDCA590001719E0 /* LaunchScreen.storyboard */; };
-		8D9F84A61CDCA623001719E0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F84A51CDCA623001719E0 /* WebViewController.swift */; };
+		8D9F84A61CDCA623001719E0 /* UIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F84A51CDCA623001719E0 /* UIWebViewController.swift */; };
+		A563F10E1CE23FDD00D3DD6E /* WkWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563F10D1CE23FDD00D3DD6E /* WkWebViewController.swift */; };
+		A5DAB9EB1CE26C320056D21C /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAB9EA1CE26C320056D21C /* MyCustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,9 @@
 		8D9F849A1CDCA590001719E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D9F849D1CDCA590001719E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D9F849F1CDCA590001719E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D9F84A51CDCA623001719E0 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		8D9F84A51CDCA623001719E0 /* UIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebViewController.swift; sourceTree = "<group>"; };
+		A563F10D1CE23FDD00D3DD6E /* WkWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WkWebViewController.swift; sourceTree = "<group>"; };
+		A5DAB9EA1CE26C320056D21C /* MyCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 				8D9F849A1CDCA590001719E0 /* Assets.xcassets */,
 				8D9F849C1CDCA590001719E0 /* LaunchScreen.storyboard */,
 				8D9F849F1CDCA590001719E0 /* Info.plist */,
-				8D9F84A51CDCA623001719E0 /* WebViewController.swift */,
+				8D9F84A51CDCA623001719E0 /* UIWebViewController.swift */,
+				A563F10D1CE23FDD00D3DD6E /* WkWebViewController.swift */,
+				A5DAB9EA1CE26C320056D21C /* MyCustomButton.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -95,7 +101,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Alexandre Barbier";
+				ORGANIZATIONNAME = synchronized;
 				TargetAttributes = {
 					8D9F848F1CDCA590001719E0 = {
 						CreatedOnToolsVersion = 7.3;
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9F84961CDCA590001719E0 /* ViewController.swift in Sources */,
-				8D9F84A61CDCA623001719E0 /* WebViewController.swift in Sources */,
+				8D9F84A61CDCA623001719E0 /* UIWebViewController.swift in Sources */,
 				8D9F84941CDCA590001719E0 /* AppDelegate.swift in Sources */,
+				A5DAB9EB1CE26C320056D21C /* MyCustomButton.swift in Sources */,
+				A563F10E1CE23FDD00D3DD6E /* WkWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
