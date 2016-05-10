@@ -1,11 +1,3 @@
-//
-//  BorderButton.swift
-//  Test
-//
-//  Created by Julien Bouquillon on 10/05/2016.
-//  Copyright © 2016 synchronized. All rights reserved.
-//
-
 import Foundation
 import UIKit
 

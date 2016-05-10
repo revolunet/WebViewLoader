@@ -4,7 +4,6 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var input: UITextField!
     var URL = "http://www.html5test.com"
-    //192.168.103.208:3001/#/media/ODL-S06BE11"
 
     override func viewDidLoad() {
         super.viewDidLoad()

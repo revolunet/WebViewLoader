@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebViewLoader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -64,7 +64,7 @@
         <!--Web View Controller-->
         <scene sceneID="g3i-Xs-w5r">
             <objects>
-                <viewController id="AMM-WS-8tD" customClass="UIWebViewController" customModule="Test" sceneMemberID="viewController">
+                <viewController id="AMM-WS-8tD" customClass="UIWebViewController" customModule="WebViewLoader" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Oy-S5-SzL"/>
                         <viewControllerLayoutGuide type="bottom" id="pnO-5g-Hye"/>
@@ -105,7 +105,7 @@
         <!--Wk Web View Controller-->
         <scene sceneID="Hhd-VZ-lgK">
             <objects>
-                <viewController id="5K8-zO-etd" customClass="WkWebViewController" customModule="Test" sceneMemberID="viewController">
+                <viewController id="5K8-zO-etd" customClass="WkWebViewController" customModule="WebViewLoader" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q76-Ey-fiZ"/>
                         <viewControllerLayoutGuide type="bottom" id="hAx-eO-ncL"/>

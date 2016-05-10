@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D9F84941CDCA590001719E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F84931CDCA590001719E0 /* AppDelegate.swift */; };
-		8D9F84961CDCA590001719E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F84951CDCA590001719E0 /* ViewController.swift */; };
-		8D9F84991CDCA590001719E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F84971CDCA590001719E0 /* Main.storyboard */; };
-		8D9F849B1CDCA590001719E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F849A1CDCA590001719E0 /* Assets.xcassets */; };
-		8D9F849E1CDCA590001719E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F849C1CDCA590001719E0 /* LaunchScreen.storyboard */; };
-		8D9F84A61CDCA623001719E0 /* UIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F84A51CDCA623001719E0 /* UIWebViewController.swift */; };
-		A563F10E1CE23FDD00D3DD6E /* WkWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563F10D1CE23FDD00D3DD6E /* WkWebViewController.swift */; };
-		A5DAB9EB1CE26C320056D21C /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAB9EA1CE26C320056D21C /* MyCustomButton.swift */; };
+		A5DAB9F81CE2745C0056D21C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAB9ED1CE2745C0056D21C /* AppDelegate.swift */; };
+		A5DAB9F91CE2745C0056D21C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DAB9EE1CE2745C0056D21C /* Assets.xcassets */; };
+		A5DAB9FA1CE2745C0056D21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DAB9EF1CE2745C0056D21C /* LaunchScreen.storyboard */; };
+		A5DAB9FB1CE2745C0056D21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DAB9F11CE2745C0056D21C /* Main.storyboard */; };
+		A5DAB9FC1CE2745C0056D21C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5DAB9F31CE2745C0056D21C /* Info.plist */; };
+		A5DAB9FD1CE2745C0056D21C /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAB9F41CE2745C0056D21C /* MyCustomButton.swift */; };
+		A5DAB9FE1CE2745C0056D21C /* UIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAB9F51CE2745C0056D21C /* UIWebViewController.swift */; };
+		A5DAB9FF1CE2745C0056D21C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAB9F61CE2745C0056D21C /* ViewController.swift */; };
+		A5DABA001CE2745C0056D21C /* WkWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAB9F71CE2745C0056D21C /* WkWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D9F84901CDCA590001719E0 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D9F84931CDCA590001719E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D9F84951CDCA590001719E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D9F84981CDCA590001719E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D9F849A1CDCA590001719E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D9F849D1CDCA590001719E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8D9F849F1CDCA590001719E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D9F84A51CDCA623001719E0 /* UIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebViewController.swift; sourceTree = "<group>"; };
-		A563F10D1CE23FDD00D3DD6E /* WkWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WkWebViewController.swift; sourceTree = "<group>"; };
-		A5DAB9EA1CE26C320056D21C /* MyCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
+		8D9F84901CDCA590001719E0 /* WebViewLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DAB9ED1CE2745C0056D21C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5DAB9EE1CE2745C0056D21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5DAB9F01CE2745C0056D21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5DAB9F21CE2745C0056D21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5DAB9F31CE2745C0056D21C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DAB9F41CE2745C0056D21C /* MyCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
+		A5DAB9F51CE2745C0056D21C /* UIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebViewController.swift; sourceTree = "<group>"; };
+		A5DAB9F61CE2745C0056D21C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5DAB9F71CE2745C0056D21C /* WkWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WkWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +45,7 @@
 		8D9F84871CDCA590001719E0 = {
 			isa = PBXGroup;
 			children = (
-				8D9F84921CDCA590001719E0 /* Test */,
+				A5DAB9EC1CE2745C0056D21C /* WebViewLoader */,
 				8D9F84911CDCA590001719E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,33 +53,33 @@
 		8D9F84911CDCA590001719E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D9F84901CDCA590001719E0 /* Test.app */,
+				8D9F84901CDCA590001719E0 /* WebViewLoader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D9F84921CDCA590001719E0 /* Test */ = {
+		A5DAB9EC1CE2745C0056D21C /* WebViewLoader */ = {
 			isa = PBXGroup;
 			children = (
-				8D9F84931CDCA590001719E0 /* AppDelegate.swift */,
-				8D9F84951CDCA590001719E0 /* ViewController.swift */,
-				8D9F84971CDCA590001719E0 /* Main.storyboard */,
-				8D9F849A1CDCA590001719E0 /* Assets.xcassets */,
-				8D9F849C1CDCA590001719E0 /* LaunchScreen.storyboard */,
-				8D9F849F1CDCA590001719E0 /* Info.plist */,
-				8D9F84A51CDCA623001719E0 /* UIWebViewController.swift */,
-				A563F10D1CE23FDD00D3DD6E /* WkWebViewController.swift */,
-				A5DAB9EA1CE26C320056D21C /* MyCustomButton.swift */,
+				A5DAB9ED1CE2745C0056D21C /* AppDelegate.swift */,
+				A5DAB9EE1CE2745C0056D21C /* Assets.xcassets */,
+				A5DAB9EF1CE2745C0056D21C /* LaunchScreen.storyboard */,
+				A5DAB9F11CE2745C0056D21C /* Main.storyboard */,
+				A5DAB9F31CE2745C0056D21C /* Info.plist */,
+				A5DAB9F41CE2745C0056D21C /* MyCustomButton.swift */,
+				A5DAB9F51CE2745C0056D21C /* UIWebViewController.swift */,
+				A5DAB9F61CE2745C0056D21C /* ViewController.swift */,
+				A5DAB9F71CE2745C0056D21C /* WkWebViewController.swift */,
 			);
-			path = Test;
+			path = WebViewLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D9F848F1CDCA590001719E0 /* Test */ = {
+		8D9F848F1CDCA590001719E0 /* WebViewLoader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D9F84A21CDCA590001719E0 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = 8D9F84A21CDCA590001719E0 /* Build configuration list for PBXNativeTarget "WebViewLoader" */;
 			buildPhases = (
 				8D9F848C1CDCA590001719E0 /* Sources */,
 				8D9F848D1CDCA590001719E0 /* Frameworks */,
@@ -88,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = Test;
-			productName = Test;
-			productReference = 8D9F84901CDCA590001719E0 /* Test.app */;
+			name = WebViewLoader;
+			productName = WebViewLoader;
+			productReference = 8D9F84901CDCA590001719E0 /* WebViewLoader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,10 +106,11 @@
 				TargetAttributes = {
 					8D9F848F1CDCA590001719E0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R434ZE6BK6;
 					};
 				};
 			};
-			buildConfigurationList = 8D9F848B1CDCA590001719E0 /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = 8D9F848B1CDCA590001719E0 /* Build configuration list for PBXProject "WebViewLoader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D9F848F1CDCA590001719E0 /* Test */,
+				8D9F848F1CDCA590001719E0 /* WebViewLoader */,
 			);
 		};
 /* End PBXProject section */
@@ -131,9 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9F849E1CDCA590001719E0 /* LaunchScreen.storyboard in Resources */,
-				8D9F849B1CDCA590001719E0 /* Assets.xcassets in Resources */,
-				8D9F84991CDCA590001719E0 /* Main.storyboard in Resources */,
+				A5DAB9F91CE2745C0056D21C /* Assets.xcassets in Resources */,
+				A5DAB9FB1CE2745C0056D21C /* Main.storyboard in Resources */,
+				A5DAB9FA1CE2745C0056D21C /* LaunchScreen.storyboard in Resources */,
+				A5DAB9FC1CE2745C0056D21C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,31 +147,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9F84961CDCA590001719E0 /* ViewController.swift in Sources */,
-				8D9F84A61CDCA623001719E0 /* UIWebViewController.swift in Sources */,
-				8D9F84941CDCA590001719E0 /* AppDelegate.swift in Sources */,
-				A5DAB9EB1CE26C320056D21C /* MyCustomButton.swift in Sources */,
-				A563F10E1CE23FDD00D3DD6E /* WkWebViewController.swift in Sources */,
+				A5DAB9F81CE2745C0056D21C /* AppDelegate.swift in Sources */,
+				A5DAB9FF1CE2745C0056D21C /* ViewController.swift in Sources */,
+				A5DAB9FD1CE2745C0056D21C /* MyCustomButton.swift in Sources */,
+				A5DABA001CE2745C0056D21C /* WkWebViewController.swift in Sources */,
+				A5DAB9FE1CE2745C0056D21C /* UIWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D9F84971CDCA590001719E0 /* Main.storyboard */ = {
+		A5DAB9EF1CE2745C0056D21C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D9F84981CDCA590001719E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8D9F849C1CDCA590001719E0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D9F849D1CDCA590001719E0 /* Base */,
+				A5DAB9F01CE2745C0056D21C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A5DAB9F11CE2745C0056D21C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DAB9F21CE2745C0056D21C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,10 +266,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Test/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WebViewLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.synchronized.UIWebViewLoader;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synchronized.WebViewLoader;
+				PRODUCT_NAME = WebViewLoader;
 			};
 			name = Debug;
 		};
@@ -274,17 +278,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Test/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WebViewLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.synchronized.UIWebViewLoader;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synchronized.WebViewLoader;
+				PRODUCT_NAME = WebViewLoader;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D9F848B1CDCA590001719E0 /* Build configuration list for PBXProject "Test" */ = {
+		8D9F848B1CDCA590001719E0 /* Build configuration list for PBXProject "WebViewLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D9F84A01CDCA590001719E0 /* Debug */,
@@ -293,7 +298,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D9F84A21CDCA590001719E0 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		8D9F84A21CDCA590001719E0 /* Build configuration list for PBXNativeTarget "WebViewLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D9F84A31CDCA590001719E0 /* Debug */,
