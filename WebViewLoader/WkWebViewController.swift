@@ -13,15 +13,26 @@ class WkWebViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if URL != "" {
-//            webview.mediaPlaybackRequiresUserAction=false;
-//            webview.allowsInlineMediaPlayback=true;
             self.webview!.loadRequest(NSURLRequest(URL: NSURL(string: URL)!))
         }
     }
 
     override func loadView() {
         super.loadView()
-        self.webview = WKWebView()
+
+        let configuration = WKWebViewConfiguration()
+        configuration.allowsInlineMediaPlayback = true;
+
+        if #available(iOS 9.0, *) {
+            configuration.requiresUserActionForMediaPlayback = false;
+            configuration.allowsAirPlayForMediaPlayback=true
+        } else {
+            configuration.mediaPlaybackAllowsAirPlay=true
+            configuration.mediaPlaybackRequiresUserAction = false;
+        }
+
+        self.webview = WKWebView(frame: UIScreen.mainScreen().bounds, configuration: configuration)
+
         self.view = self.webview
         let button = UIButton(frame: CGRectMake(3, 15, 80, 30))
         button.setTitle("◀ Back", forState: UIControlState.Normal)
